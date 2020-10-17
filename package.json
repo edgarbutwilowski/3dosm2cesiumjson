@@ -1,0 +1,29 @@
+{
+  "name": "3dosm2cesiumjson",
+  "version": "1.0.0",
+  "description": "This node.js service can transform 3d osm buildings ti cesium.js building entities in JSON format.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edgarbutwilowski/3dosm2cesiumjson.git"
+  },
+  "keywords": [
+    "3d",
+    "osm",
+    "openstreetmap",
+    "cesium.js",
+    "JSON"
+  ],
+  "author": "Edgar Butwilowski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/edgarbutwilowski/3dosm2cesiumjson/issues"
+  },
+  "homepage": "https://github.com/edgarbutwilowski/3dosm2cesiumjson#readme",
+  "dependencies": {
+    "xml2js": "^0.4.23"
+  }
+}
