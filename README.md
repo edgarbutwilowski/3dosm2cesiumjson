@@ -4,7 +4,7 @@ This node.js service can transform 3d OSM buildings to cesium.js building entiti
 # How to use
 You need to install Node.js in order to run this service. If Node.js is installed, you can download 3dosm2cesiumjson through Github by using the "Download ZIP" on this repository.
 
-After you have downloaded und unpacked 3dosm2cesiumjson locally, you can open a command line in the unpacked directory an type to start:
+After you have downloaded und unpacked 3dosm2cesiumjson locally, you can open a command line in the unpacked directory and type the following to start:
 
 ```console
 node index.js
