@@ -17,7 +17,9 @@ Now you can open your browser and browse e.g. the following URL:
 http://localhost:3000?bbox=bbox=-73.98176,40.76253,-73.97499,40.76821&baseheight=500
 ```
 
-This will give you a Cesium.js JSON of some buildings in New York Manhatten.
+This will give you a Cesium.js JSON of some buildings in New York Manhatten. You have to set or adjust the `basehight` value. This is the hight above sea level of all the buildings' base lines in the serice request. You also have to provide the bounding box (`bbox`) for your request. Try to choose small bounding boxes in order to spare the OSM export service. You can manually configure the bounding box you need through this OSM web map:
+
+https://www.openstreetmap.org/export
 
 You can use the resulting JSON and integrate it directly into a Cesium.js client this way:
 
