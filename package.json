@@ -4,7 +4,8 @@
   "description": "This node.js service can transform 3d osm buildings ti cesium.js building entities in JSON format.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
